@@ -1,0 +1,12 @@
+
+{% extends 'personal/main.html' %}
+
+{% block title %}
+    ALL USERS
+{% endblock%}
+
+{% block content %}
+{% for el in users %}
+    {{el.id}}
+{% endfor %}
+{% endblock %}
